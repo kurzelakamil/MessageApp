@@ -20,8 +20,11 @@
 			</div>
 			<div class="pull-right" style="margin-top: 20px;">
 				<ul>
+					<li style="display: inline"><a href="/MessageApp/MessageController"
+						role="button" class="btn btn-primary" name="messages">Get Back<span
+							class="badge badge-light"></span></a></li>
 					<li style="display: inline"><a href="/MessageApp/Homepage"
-						role="button" class="btn btn-primary" name="message">Homepage<span
+						role="button" class="btn btn-primary" name="homepage">Homepage<span
 							class="badge badge-light"></span></a></li>
 					<li style="display: inline"><a
 						href="/MessageApp/LoginController" role="button"
@@ -31,11 +34,9 @@
 			</div>
 		</div>
 		<div class="messages">
-				<div class="container">
-					<div class="row">
-						${message.textMessage}
-					</div>
-				</div>
+			<div class="container">
+				<div class="row">${message.textMessage}</div>
+			</div>
 		</div>
 	</div>
 </body>

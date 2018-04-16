@@ -36,12 +36,12 @@
 				</div>
 				<div class="form-group pull-right">
 					<label for="receiver">Recipient</label>
-					<select multiple-class="form-control" id="receiver" name="receiver">
+					<select multiple-class="form-control" id="receiver" name="receiver" class="custom-select custom-select-sm">
 						<c:forEach items="${sessionScope.usernames}" var="item">
 							<option>${item}</option>
 						</c:forEach>
 					</select>
-					<input type="submit" value="Send">
+					<input type="submit" class="btn btn-primary" value="Send">
 				</div>			
 			</form>
 		</div>
