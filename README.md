@@ -15,7 +15,11 @@ v 1.1:
 -added XSS protection
 ```
 
+v 1.2:
+```
+-added message length(number of signs) counter
+```
 Next versions will have more functionalities and better look :) 
 
 
-JAVA, HTML, CSS(BOOTSTRAP), mySQL
+Java, HTML, CSS(Bootstrap), mySQL, JavaScript(jQuery)
