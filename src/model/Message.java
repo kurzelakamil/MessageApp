@@ -1,6 +1,7 @@
 package model;
 
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 
 public class Message {
 	Integer id = 0;
@@ -45,8 +46,9 @@ public class Message {
 		this.textMessage = textMessage;
 	}
 
-	public Timestamp getCreatedDate() {
-		return createdDate;
+	public String getCreatedDate() {
+		String date = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(createdDate);
+		return date;
 	}
 
 	public void setCreatedDate(Timestamp createdDate) {
