@@ -42,7 +42,7 @@
 							<a href="/MessageApp/MessageController?id=${item.id}">${item.subject}</a>
 						</div>
 						<div class="col-md-4">
-							<c:out value="${item.getCreatedDate()}"></c:out>
+							<c:out value="${item.getDateAsString()}"></c:out>
 						</div>
 					</div>
 				</div>

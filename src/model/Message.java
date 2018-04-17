@@ -46,7 +46,11 @@ public class Message {
 		this.textMessage = textMessage;
 	}
 
-	public String getCreatedDate() {
+	public Timestamp getCreatedDate() {
+		return createdDate;
+	}
+	
+	public String getDateAsString() {
 		String date = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(createdDate);
 		return date;
 	}
